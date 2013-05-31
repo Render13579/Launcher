@@ -1,0 +1,19 @@
+{
+
+ "manifest_version":2,
+
+  "name": "New Tab",
+  "description": "A New Tab Replacement",
+  "version": "1.15",
+
+    "chrome_url_overrides" : {
+    	"newtab": "myPage.html"
+    	},
+    "options_page": "options.html",
+    "permissions": [
+    "webNavigation",
+    "contextMenus"
+  ],
+
+  "icons": { "16": "16.png", "128": "128.png" }
+}
